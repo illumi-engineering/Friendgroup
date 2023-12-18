@@ -1,9 +1,9 @@
-package sh.illumi.friendgroup
+package sh.illumi.friendgroup.homeserver
 
 import io.ktor.server.application.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
-import sh.illumi.friendgroup.plugins.*
+import sh.illumi.friendgroup.homeserver.plugins.*
 
 fun main() {
     embeddedServer(Netty, port = 8080, host = "0.0.0.0", module = Application::module)

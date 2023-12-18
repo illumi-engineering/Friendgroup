@@ -1,4 +1,4 @@
-package sh.illumi.friendgroup.plugins
+package sh.illumi.friendgroup.homeserver.plugins
 
 import com.auth0.jwt.JWT
 import com.auth0.jwt.algorithms.Algorithm

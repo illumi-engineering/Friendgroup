@@ -4,8 +4,8 @@ import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import io.ktor.http.*
 import io.ktor.server.testing.*
+import sh.illumi.friendgroup.homeserver.plugins.configureRouting
 import kotlin.test.*
-import sh.illumi.friendgroup.plugins.*
 
 class ApplicationTest {
     @Test

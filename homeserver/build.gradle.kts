@@ -4,17 +4,19 @@ val logback_version: String by project
 
 val postgres_version: String by project
 val h2_version: String by project
+
+
 plugins {
-    kotlin("jvm") version "1.9.21"
-    id("io.ktor.plugin") version "2.3.7"
-    id("org.jetbrains.kotlin.plugin.serialization") version "1.9.21"
+    kotlin("jvm")
+    kotlin("plugin.serialization")
+    id("io.ktor.plugin")
 }
 
 group = "sh.illumi.friendgroup"
 version = "0.0.1"
 
 application {
-    mainClass.set("sh.illumi.friendgroup.ApplicationKt")
+    mainClass.set("sh.illumi.friendgroup.homeserver.ApplicationKt")
 
     val isDevelopment: Boolean = project.ext.has("development")
     applicationDefaultJvmArgs = listOf("-Dio.ktor.development=$isDevelopment")

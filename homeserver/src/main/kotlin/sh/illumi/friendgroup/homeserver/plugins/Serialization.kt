@@ -1,4 +1,4 @@
-package sh.illumi.friendgroup.plugins
+package sh.illumi.friendgroup.homeserver.plugins
 
 import io.ktor.serialization.kotlinx.json.*
 import io.ktor.server.application.*

@@ -1,9 +1,9 @@
 plugins {
-    kotlin("jvm") version "1.9.20"
+    kotlin("jvm") version "1.9.21"
 }
 
-group = "org.example"
-version = "1.0-SNAPSHOT"
+group = "sh.illumi.friendgroup"
+version = "0.0.1"
 
 repositories {
     mavenCentral()

@@ -1,4 +1,4 @@
-package sh.illumi.friendgroup.plugins
+package sh.illumi.friendgroup.homeserver.plugins
 
 import io.ktor.network.selector.*
 import io.ktor.network.sockets.*
